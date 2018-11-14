@@ -32,8 +32,6 @@ class Button extends Component {
         this.isComponentMounted && this.setState({ loading: false });
     }
 
-    // Note: `isMounted` is a deprecated function in React component so we cannot use this as the variable name
-    //       so we can only use the "opposite" meaning as the variable name
     componentDidMount() {
         this.isComponentMounted = true;
     }
@@ -56,6 +54,7 @@ class Button extends Component {
         >{ children }</button>
         );
     }
+
 }
 
 export default Button;
