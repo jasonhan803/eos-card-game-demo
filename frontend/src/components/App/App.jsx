@@ -45,7 +45,7 @@ class App extends Component {
   render() {
     // Extract data from state and props ('user' is from redux)
     const { loading } = this.state;
-    const { user: { name } } = this.props;
+    const { user: { name, game } } = this.props;
 
     // Determine the app status for styling
     let appStatus = "login";
