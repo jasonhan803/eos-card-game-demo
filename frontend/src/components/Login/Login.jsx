@@ -66,11 +66,11 @@ class Login extends Component {
 
     return (
       <div className="Login">
-        <div className="title">Elemental Battles - powered by EOSIO</div>
-        <div className="description">Please use the Account Name and Private Key generated in the previous page to log into the game.</div>
+        <div className="title">Elemental Battles - powered by Toshi</div>
+        <div className="description">アカウント名とプライベートキーを入力してください</div>
         <form name="form" onSubmit={ this.handleSubmit }>
           <div className="field">
-            <label>Account name</label>
+            <label>アカウントネーム</label>
             <input
               type="text"
               name="username"
@@ -82,7 +82,7 @@ class Login extends Component {
             />
           </div>
           <div className="field">
-            <label>Private key</label>
+            <label>プライベートキー</label>
             <input
               type="password"
               name="key"
